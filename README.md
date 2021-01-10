@@ -7,6 +7,12 @@ FLIO Project 오디오 중고마켓
 - 디자이너 : 오채윤
 - 기획 : 이효성, 황교욱
 
+## 작업 내역 노션 URL
+> https://www.notion.so/FLIO-158db3cc5b224daeb16e8596254202f0
+
+## 기획 피그마 URL
+> https://www.figma.com/file/AmAQuoAYR4hSqOkJVUXanU/%ED%94%8C%EB%A6%AC%EC%98%A4-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?node-id=0%3A1
+
 ## Application Version
 - minSdkVersion : 23
 - targetSdkVersion : 29
