@@ -41,7 +41,7 @@ FLIO Project 오디오 중고마켓
 ![관심상품](./image/favorite_관심상품.png)
 
 ## board - 게시판 ( 댓글 +)
-![게시판](./image/board_게시판.png)
+![게시판](./image/board.png)
 
 ## chat - 채팅 (대분류)
 ![채팅](./image/chat_채팅.png)
