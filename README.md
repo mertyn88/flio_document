@@ -42,3 +42,86 @@ FLIO Project 오디오 중고마켓
 
 ## crawler - 네이버 포스트 검색엔진 수집 데이터
 ![수집데이터](./image/crawler.png)
+
+
+### Elasticsearch
+
+## Index 설정
+> highlight 검색이 가능하도록 term_vector: "with_positions_offsets" 설정을 추가
+```json
+{
+  "settings": {
+    "index": {
+      "number_of_shards": 1,
+      "number_of_replicas": 0,
+      "analysis": {
+        "analyzer": {
+          "nori_analyzer": {
+            "type": "nori"
+          }
+        }
+      }
+    }
+  },
+  "mappings": {
+    "properties":{
+      "base_url":{
+        "type":"keyword"
+      },
+      "target_url":{
+        "type":"keyword"
+      },
+      "keyword":{
+        "type":"keyword"
+      },
+      "title":{
+        "type":"text",
+        "analyzer": "nori_analyzer",
+        "term_vector": "with_positions_offsets"
+      },
+      "content":{
+        "type":"text",
+        "analyzer": "nori_analyzer",
+        "term_vector": "with_positions_offsets"
+      },
+      "image_path":{
+        "type":"keyword"
+      },
+      "reg_date":{
+        "type":"date"
+      },
+      "chg_date":{
+        "type":"date"
+      }
+    }
+  }
+}
+```
+
+## 검색 질의
+> highlight 검색이 가능하도록 관련 설정 추가 
+```json
+{
+  "_source": {
+    "excludes": [
+      "content"
+      ]
+    }, 
+  "query" : {
+    "match": {
+      "content": "마크 레빈슨"
+    }
+  },
+  "highlight" : {
+    "fields" : {
+      "content" : {
+          "pre_tags" : ["<HS>"], 
+          "post_tags" : ["</HE>"], 
+          "number_of_fragments" : 1,
+          "fragment_size" : 150,
+          "type" : "fvh"
+      }
+    }
+  }
+}
+```
