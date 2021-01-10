@@ -13,21 +13,11 @@ FLIO Project 오디오 중고마켓
 ## 기획 피그마 URL
 > https://www.figma.com/file/AmAQuoAYR4hSqOkJVUXanU/%ED%94%8C%EB%A6%AC%EC%98%A4-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?node-id=0%3A1
 
-## Application Version
-- minSdkVersion : 23
-- targetSdkVersion : 29
+## Backend - api-manager
+> https://github.com/mertyn88/api-manager
 
-## Server Version
-- JDK : Java 11
-- Mysql : 8.20
-- SpringBoot : ??
-
-## 이번 프로젝트를 통해 얻고자 하는 기술 스택 목록
-- AAC(Navigation, LiveData, DataBinding, viewModel)
-- Firebase(Authentication, Crashlytics, Analytics, Cloud Messaging)
-- RxJava(version 3), RxAndroid
-- Dagger2, Retrofit2, Glide, TedPermission, DiffUtil, MotionLayout, CoordinatorLayout
-
+## Backend - crawler-manager
+> https://github.com/mertyn88/crawler-manager
 
 ### DB 설계 
   
