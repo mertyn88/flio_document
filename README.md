@@ -14,6 +14,7 @@ FLIO Project 오디오 중고마켓
 > https://www.figma.com/file/AmAQuoAYR4hSqOkJVUXanU/%ED%94%8C%EB%A6%AC%EC%98%A4-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?node-id=0%3A1
 
 ## Backend - api-manager
+> https://app.swaggerhub.com/apis/mertyn88/api-manager/1.4
 > https://github.com/mertyn88/api-manager
 
 ## Backend - crawler-manager
