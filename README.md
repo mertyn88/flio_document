@@ -32,22 +32,22 @@ FLIO Project 오디오 중고마켓
 ### DB 설계 
   
 ## flio_user - 로그인 유저 정보(파이어베이스)
-![로그인 관련 유저정보](flio_user_로그인유저.png)
+![로그인 관련 유저정보](image/flio_user_로그인유저.png)
 
 ## product - 상품
-![상품](product_상품.png)
+![상품](image/product_상품.png)
 
 ## favorite - 관심상품
-![관심상품](favorite_관심상품.png)
+![관심상품](image/favorite_관심상품.png)
 
 ## board - 게시판 ( 댓글 +)
-![게시판](board_게시판.png)
+![게시판](image/board_게시판.png)
 
 ## chat - 채팅 (대분류)
-![채팅](chat_채팅.png)
+![채팅](image/chat_채팅.png)
 
 ## chat_detail - 채팅 상세
-![채탱](chat_detail_채팅상세.png)
+![채탱](image/chat_detail_채팅상세.png)
 
 ## crawler - 네이버 포스트 검색엔진 수집 데이터
-![수집데이터](crawler_네이버포스트수집데이터.png)
+![수집데이터](image/crawler_네이버포스트수집데이터.png)
