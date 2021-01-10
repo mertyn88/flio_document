@@ -7,6 +7,8 @@ FLIO Project 오디오 중고마켓
 - 디자이너 : 오채윤
 - 기획 : 이효성, 황교욱
 
+![수료식](./image/completion_ceremony.jpg)
+
 ## 작업 내역 노션 URL
 > https://www.notion.so/FLIO-158db3cc5b224daeb16e8596254202f0
 
