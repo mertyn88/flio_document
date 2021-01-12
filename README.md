@@ -22,8 +22,14 @@ FLIO Project 오디오 중고마켓
 > https://app.swaggerhub.com/apis/mertyn88/api-manager/1.4
 > https://github.com/mertyn88/api-manager
 
+안드로이드 앱과의 통신용 모듈  
+앱 클라이언트의 모든 요청은 api-manager를 통해서 request - response 한다.
+
 ## Backend - crawler-manager
 > https://github.com/mertyn88/crawler-manager
+
+네이버 포스트를 수집하여 DB에 Insert하는 배치성 모듈
+DB에 넣어진 데이터는 Elasticsearch, Logstash를 이용하여 수집/색인된다.  
 
 ### DB 설계 
   
