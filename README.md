@@ -19,7 +19,7 @@ FLIO Project 오디오 중고마켓
 > https://github.com/slee8789/FLIO
 
 ## Backend - api-manager
-> https://app.swaggerhub.com/apis/mertyn88/api-manager/1.4
+> https://app.swaggerhub.com/apis/mertyn88/api-manager/1.4  
 > https://github.com/mertyn88/api-manager
 
 안드로이드 앱과의 통신용 모듈  
